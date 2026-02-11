@@ -60,6 +60,7 @@ def main():
     download_raw(url_ds, raw_path)
     df = load_raw(raw_path)
     df_clean = clean(df)
+    
 
     train_df, test_df = train_test_split(df_clean, test_size=0.2, random_state=42)
     print(f"Train: {len(train_df)} filas | Test: {len(test_df)} filas")
