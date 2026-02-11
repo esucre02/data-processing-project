@@ -1,3 +1,7 @@
 __pycache__
 .env
 .learn
+
+# Datos y modelos (no subir a git)
+data/
+models/
